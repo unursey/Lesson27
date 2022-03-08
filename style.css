@@ -1,5 +1,27 @@
 img {
-  max-width: 300px;
+  max-height: 300px;
   padding-top: 20px;
   padding-bottom: 20px;
+  order: -1;
+}
+div {
+  background-color: white;
+}
+
+.res {
+  position: absolute;
+  display: flex;
+  flex-flow: row wrap;
+
+  background-color: black;
+  width: 100%;
+}
+
+.div_card {
+  border: 3;
+  border-color: rgb(73, 8, 85);
+  margin-top: 20px;
+  margin-left: 20px;
+  padding: 20px 10px 20px 10px;
+  width: 300px;
 }
